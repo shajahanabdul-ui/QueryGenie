@@ -176,6 +176,19 @@ The application blocks SQL operations such as:
 Add screenshots after deployment.
 
 ## 📸 Home Screen
+![Home Screen](screenshots/QueryGenie_SS1.png)
+
+## 📝 Executive Question
+![Question](screenshots/QueryGenie_SS2.png)
+
+## 📝 Generated SQL
+![Generated SQL](screenshots/QueryGenie_SS3.png)
+
+## 📊 Dashboard
+![Dashboard](screenshots/QueryGenie_SS4.png)
+
+## 💡 Executive Insight
+![Executive Insight](screenshots/QueryGenie_SS5.png)
 
 ```
 screenshots/
