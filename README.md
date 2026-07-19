@@ -101,7 +101,6 @@ QueryGenie/
 │    ├── sql.png
 │    ├── dashboard.png
 │    └── insights.png
-└── .env
 ```
 
 ---
@@ -190,13 +189,6 @@ Add screenshots after deployment.
 ## 💡 Executive Insight
 ![Executive Insight](screenshots/QueryGenie_SS5.png)
 
-```
-screenshots/
-    home.png
-    sql.png
-    dashboard.png
-    insights.png
-```
 
 ---
 
@@ -216,7 +208,7 @@ screenshots/
 
 **Shajahan Abdul**
 
-Business Intelligence Partner | Data Analytics | AI Enthusiast
+Senior BI Analyst | Data Analytics | AI Enthusiast
 
 ---
 
