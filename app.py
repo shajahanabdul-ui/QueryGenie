@@ -252,7 +252,11 @@ if question:
     start=time.time()
 
     with st.spinner("🤖 Understanding your question..."):
-        parsed=nl_to_sql(question)
+        try:
+            parsed = nl_to_sql(question)
+        except Exception as e:
+            st.error(f"Couldn't generate SQL: {e}")
+            st.stop()
         st.toast("✅ SQL Generated")
 
     sql=parsed["sql"]
@@ -265,8 +269,12 @@ if question:
         st.code(sql,language="sql")
 
     with st.spinner("📊 Running query..."):
-        df=run_query(sql)
-        st.toast("📊 Data Retrieved")
+        try:
+            df = run_query(sql)
+            st.toast("📊 Data Retrieved")
+        except Exception as e:
+            st.error(f"Query failed: {e}")
+            st.stop()
 
     response_time=round(time.time()-start,2)
 
